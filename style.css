@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* body{
+    background-position:center;
+    background-size:cover;
+} */
+.container{
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    /*background-image:url(1.jpg);
+    background-repeat: repeat-x;
+    height:200vh;
+     background-color: darkred; */
+}
+.navbar{
+    width:1200px;
+    height:80px;
+    margin:auto;
+}
+.icon{
+    width:200px;
+    height:70px;
+    float:left;
+}
+.icon .logo{
+    position:relative;
+    top: 10px;
+    left: 20px;
+    font-size:36px;
+    font-family: times new roman;
+    font-weight:bold;
+}
+.icon .logo2{
+    position:relative;
+    top:5px;
+    left:20px;
+    font-weight: bold;
+    font-family: times new roman;
+}
+.contact{
+    width:500px;
+    height:60px;
+    float:left;
+    margin-left:180px;
+}
+.conList{   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.conList .conListSub{
+    list-style:none;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size:16px;
+}
+.conList .conListSub a{
+    text-decoration:none;
+    color:black;
+}
+.conList .conListSub a:active{
+    color:#ff7200;
+}
+.apply{
+    width:150px;
+    height:60px;
+    float:right;
+}
+.apply .btnapply{
+    width:100px;
+    height:30px;
+    border:none;
+    background-color: #ff7200;
+    margin-top:25px;
+    margin-left:20px;
+    font-size: 15px;
+}
+.btnapply a{
+    text-decoration:none;
+    color:white;
+}
+.btnapply:hover{
+    background-color:white;
+}
+.btnapply a:hover{
+    color:#ff7200;
+}
+.navbar2{
+    width:1200px;
+    height:60px;
+    margin:auto;
+    background-color: rgb(11, 4, 75);
+}
+.menu{
+    width:800px;
+    height: 50px;
+    float:left;
+}
+.menuList{
+    float:left;
+    display:flex;
+    justify-content:center;
+}
+.menuListSub{
+    margin-left:50px;
+    margin-top:20px;
+    list-style:none;
+}
+.menuListSub a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-family:arial;
+}
+.menuListSub a:hover{
+    color:#ff7200;
+}
+.search{
+    width:300px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    left:70px;
+    top:8px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius:25px;
+}
+.srch{
+    width:240px;
+    height: 30px;
+    background: transparent;
+    border:none;
+    color:white;
+}
+::placeholder{
+    color:rgba(255, 255, 255, 0.918);
+    font-family:calibri;
+    font-size:18px;
+}
+.search a{
+    text-decoration:none;
+    color:white;
+}
+.college{
+    width:100%;
+    height:55vh;
+    margin:auto;
+    background:url(edu2.jpeg);
+    background-size:cover;
+    background-position-x: -390px;
+}
+.edu{
+    width:500px;
+    height:300px;
+    position:relative;
+    top:150px;
+    left:1000px;    
+}
+.univ{
+    font-size:48px;
+    font-family: calibri;
+    color:white;
+    padding-bottom:15px;
+}
+.univ2{
+    font-size:15px;
+    font-family:calibri;
+    color:white;    
+    padding-bottom:20px;
+}
+.btnColl{
+    width:150px;
+    height:40px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#ff7200;
+    border:1px solid#ff7200;
+    border-radius:20px;
+}
+.btnColl a{    
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding-left:21px;
+    padding-right:21px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.btnColl a:hover{    
+    color:#ff7200;
+    background-color:white;
+}
+.btnColl:hover{    
+    background-color:white;
+    border:white;
+}
+.cert{
+    width:100%;
+    height:30vh;
+    margin:auto;
+    background-color: violet;
+}
+.teach{
+    width:25%;
+    height:30vh;
+    margin:auto;  
+    float:left;
+    background-color:#ff7200;
+}
+.certIcon{
+    width:80px;
+    height:80px;
+    position:relative;
+    top:30px;
+    padding-bottom:50px;
+}
+.teach, .spec, .book, .sport, h2{
+    text-align:center;
+    color:white;
+    font-size: 30px;
+    text-align:center;
+    padding-bottom:20px;
+}
+.teach, .spec, .book, .sport, h5{
+    text-align:center;
+    color:white;
+    font-size: 12px;
+    text-align:center;
+    padding-bottom:20px;
+}
+.spec{
+    width:25%;
+    height:30vh;
+    margin:auto;  
+    float:left;  
+    background-color: rgb(11, 4, 75);
+}
+.book{
+    width:25%;
+    height:30vh;
+    margin:auto;  
+    float:left;
+    background-color:#ff7200;
+}
+.sport{
+    width:25%;
+    height:30vh;
+    margin:auto;  
+    float:left;  
+    background-color: rgb(11, 4, 75);
+}
+.copyright{
+    width:100%;
+    height:5vh;
+    margin:auto;
+    background-color: rgb(11, 4, 75);
+}
+.copyright h4{
+    text-align:center;
+    padding-top:25px;
+    font-size:15px;
+    font-style:italic;
+}
+.copyright h4 a{
+    text-decoration:none;
+    color:white;
+}
